@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Washington Goat Hunt Layers</name>
+
+    <Folder>
+      <name>GitHub KMZs</name>
+      <description>KMZ files hosted via GitHub LFS</description>
+
+      <NetworkLink>
+        <name>Island KMZ</name>
+        <Link>
+          <href>https://github.com/lorak8603/elk-maps/raw/main/island.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+
+      <NetworkLink>
+        <name>Goat KMZ</name>
+        <Link>
+          <href>https://github.com/lorak8603/elk-maps/raw/main/goat.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+
+    </Folder>
+
+  </Document>
+</kml>
